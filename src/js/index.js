@@ -28,7 +28,7 @@ function playgame(game) {
 
         if (game == 2) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Arkanoid/' + window3;
 
-        if (game == 3) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Question/' + window3;
+        if (game == 3) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/question/' + window3;
 
         if (game == 4) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Dino/' + window3;
 
