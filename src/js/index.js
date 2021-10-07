@@ -7,11 +7,11 @@ function surt() {
 }
 function enrerre(){
     if (control > 1) control -= 1;
-    else control = 16;
+    else control = 17;
     playgame(control);
 }
 function endavant(){
-    if (control < 16) control += 1;
+    if (control < 17) control += 1;
     else control = 1;
     playgame(control);
 }
@@ -57,6 +57,8 @@ function playgame(game) {
         if (game == 15) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Circuit/' + window3;
 
         if (game == 16) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://simmer.io/@Equalitzator/soldier2" width=100% height="820" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
+
+        if (game == 17) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://simmer.io/@Equalitzator/survival" width=100% height="820" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
 
         document.getElementById("gameNew").innerHTML = contanidor;
 }
