@@ -7,11 +7,11 @@ function surt() {
 }
 function enrerre(){
     if (control > 1) control -= 1;
-    else control = 18;
+    else control = 27;
     playgame(control);
 }
 function endavant(){
-    if (control < 18) control += 1;
+    if (control < 27) control += 1;
     else control = 1;
     playgame(control);
 }
@@ -39,33 +39,51 @@ function playgame(game) {
 
         if (game == 4) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/lemming/' + window3;
 
-        if (game == 5) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/tettris/' + window3;
+        if (game == 5) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/mazingerz/' + window3;
 
-        if (game == 6) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/reflection/' + window3;
+        if (game == 6) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/doozy/' + window3;
 
-        if (game == 7) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Labyrinth/' + window3;
+        if (game == 7) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/tettris/' + window3;
 
-        if (game == 8) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/labyrinth2/' + window3;
+        if (game == 8) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/reflection/' + window3;
 
-        if (game == 9) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/obstacle/" + window3;
+        if (game == 9) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Labyrinth/' + window3;
 
-        if (game == 10) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/question/' + window3;
+        if (game == 10) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/labyrinth2/' + window3;
 
-        if (game == 11) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://gilbertvs.github.io/pinpon/" width=100% height="780" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
+        if (game == 11) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/obstacle/" + window3;
 
-        if (game == 12) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://gilbertvs.github.io/Shooter/" width=100% height="780" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
+        if (game == 12) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/question/' + window3;
 
-        if (game == 13) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Racecars/' + window3;
+        if (game == 13) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://gilbertvs.github.io/pinpon/" width=100% height="780" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
 
-        if (game == 14) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Million/' + window3;
+        if (game == 14) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://gilbertvs.github.io/Shooter/" width=100% height="780" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
 
-        if (game == 15) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/City/' + window3;
+        if (game == 15) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Racecars/' + window3;
 
-        if (game == 16) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Circuit/' + window3;
+        if (game == 16) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Million/' + window3;
 
-        if (game == 17) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://simmer.io/@Equalitzator/soldier2" width=100% height="800" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
+        if (game == 17) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/City/' + window3;
 
-        if (game == 18) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/survival" + window3;
+        if (game == 18) contanidor = window1 + butons + window2 + 'https://gilbertvs.github.io/Circuit/' + window3;
+
+        if (game == 19) contanidor = '<div class = "col-md-1"></div><div class = "col-md-10"><div id="game">'+butons+'<iframe id="capt" src="https://simmer.io/@Equalitzator/soldier2" width=100% height="800" frameborder="0" style="border:0" allowfullscreen> </iframe></div></div>';
+
+        if (game == 20) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/survival" + window3;
+
+        if (game == 21) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/city2/" + window3;
+
+        if (game == 22) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/objectivepiece" + window3;
+
+        if (game == 23) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/tower" + window3;
+
+        if (game == 24) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/fantasy-castle" + window3;
+
+        if (game == 25) contanidor = window1 + butons + window2 + "https://simmer.io/@Equalitzator/battlearches" + window3;
+
+        if (game == 26) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/board/" + window3;
+
+        if (game == 27) contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pacman2/" + window3;
 
         document.getElementById("gameNew").innerHTML = contanidor;
 }
