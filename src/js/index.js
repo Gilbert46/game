@@ -101,7 +101,7 @@ function playgame(game) {
     if (game == 32 && pass == "1971") contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/asteroit/" + window3;
 
     pass = document.getElementById("pinpon2").value;
-    if (game == 33 && pass == "1972") contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pingpong3/" + window3;
+    if (game == 33 && pass == "1972") contanidor = window1 + butons + window2 + "https://gilbertvs.github.io/pingpongT/" + window3;
 
     document.getElementById("gameNew").innerHTML = contanidor;
 
